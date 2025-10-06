@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+ body{
+    background-color: #000;
+
+ }
+
+header{
+    display: flex;
+    justify-content: space-around;
+       padding: 25px 0px 25px 0px;
+
+}
+nav>ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+#logo{
+    height: 25px;
+}
+
+#lupa{
+    height: 25px;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+   font-size: 50px;
+   margin-bottom: 16px;
+}
+
+h2 {
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 12px;
+}
+
+main>button {
+   background-color: #636CCB;
+   width: 125px;
+   height: 30px;
+   border: none;
+   border-radius: 16px;
+   color: #fff;
+}
+
+section>main>button {
+  background-color: grey;
+   width: 125px;
+   height: 30px;
+   border: none;
+   border-radius: 16px;
+   color: #fff;
+}
